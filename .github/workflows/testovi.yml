@@ -19,7 +19,7 @@ jobs:
       - name: Podešavanje PHP-a
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.4'
           extensions: mbstring, xml, ctype, json, bcmath, curl, sqlite3
           coverage: none
 
